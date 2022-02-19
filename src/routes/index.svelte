@@ -17,7 +17,9 @@
 
 
 <main class="flex flex-col gap-10 max-w-screen-lg mx-auto px-4 my-8">
-    <Carousel />
+    <div class="flex flex-col gap-2">
+        <Carousel />
+    </div>
     
     <section class="flex flex-col gap-4">
         {#each topCacildis as { tag, image }}
@@ -26,7 +28,7 @@
     </section>
 
     <section class="flex flex-col gap-4">
-        <p>divoltis porris</p>
+        <p class="font-bold text-lg">divoltis porris</p>
         <div class="flex flex-col gap-4">
             {#each divoltis as { title, subtitle, image }}
                 <DivoltisPorris title={title} subtitle={subtitle} image={image} />
@@ -35,7 +37,7 @@
     </section>
 
     <section class="flex flex-col gap-4">
-        <p class="text-brand-blue">paisis, filhis, espiritis santis</p>
+        <p class="text-brand-blue text-lg">paisis, filhis, espiritis santis</p>
         <div class="flex flex-col gap-4">
             {#each paisisFilhis as title}
                 <PaisisFilhis title={title}/>

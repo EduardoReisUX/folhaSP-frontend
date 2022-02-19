@@ -1,7 +1,6 @@
-<div id="wrapper" class="flex flex-col">
-    <div class="bg-brand-black bg-[url('/static/mobile/image_rotate.png')] bg-cover bg-center bg-no-repeat flex flex-col w-full h-80 py-4">
-        <div class="justify-self-end bg-brand-blue uppercase">MUSSUM IPSUM CACILDS</div>
-    </div>
-    <p class="">Pra lá, depois divoltis porris, paradis.</p>
-    <div id="three-dots" class=""></div>
+<div class="flex flex-col justify-end pb-4 bg-brand-black bg-[url('/static/mobile/image_rotate.png')] bg-cover bg-center bg-no-repeat w-full h-80">
+    <div class="w-max py-1 pr-5 pl-1 font-bold uppercase bg-brand-blue text-brand-white">MUSSUM IPSUM CACILDS</div>
 </div>
+
+<p class="font-bold text-xl">Pra lá, depois divoltis porris, paradis.</p>
+<div id="three-dots" class=""></div>

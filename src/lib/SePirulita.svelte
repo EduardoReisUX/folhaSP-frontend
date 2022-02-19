@@ -7,7 +7,7 @@
     }[];
 </script>
 
-<p class="text-brand-red">{title}</p>
+<p class="text-brand-red text-lg">{title}</p>
 
 <div class={`grid grid-cols-2 gap-4`}>
     {#each articles as { title, description, image }}
