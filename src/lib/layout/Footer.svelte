@@ -1,6 +1,13 @@
+<script lang="ts">
+    import MdArrowUpward from 'svelte-icons/md/MdArrowUpward.svelte'
+</script>
+
 <footer class="text-brand-white">
     <div class="bg-brand-blue">
-        <div class="px-4 py-2 text-right text-sm">VOLTAR AO TOPO svg</div>
+        <div class="flex gap-2 items-center justify-end px-4 py-2 text-sm">
+            VOLTAR AO TOPO
+            <div class="h-6 w-6"><MdArrowUpward /></div>
+        </div>
     </div>
     <div class="bg-brand-blueDarker">
         <div class="px-4 py-4">
