@@ -14,19 +14,21 @@
     sePirulita: sePirulitaType
 </script>
 
+
+
 <main class="flex flex-col gap-10 max-w-screen-lg mx-auto px-4 my-8">
     <Carousel />
-
+    
     <section class="flex flex-col gap-4">
-        {#each topCacildis as tag}
-            <TopCacilds tag={tag}/>
+        {#each topCacildis as { tag, image }}
+            <TopCacilds tag={tag} image={image}/>
         {/each}
     </section>
 
     <section class="flex flex-col gap-4">
         <p>divoltis porris</p>
         <div class="flex flex-col gap-4">
-            {#each divoltis as {title, subtitle, image}}
+            {#each divoltis as { title, subtitle, image }}
                 <DivoltisPorris title={title} subtitle={subtitle} image={image} />
             {/each}
         </div>
@@ -51,6 +53,8 @@
         <Ad />
     </section>
 </main>
+
+
 
 <style global>
     body {

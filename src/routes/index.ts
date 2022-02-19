@@ -1,4 +1,7 @@
-export type topCacildisType = string[];
+export type topCacildisType = {
+	tag: string;
+	image: string;
+}[];
 
 export type divoltisType = {
 	title: string;
@@ -18,28 +21,32 @@ export type sePirulitaType = {
 }[];
 
 export function get() {
-	let topCacildis = ['pindureta', 'bolis quadradis', 'sapiens'];
+	let topCacildis = [
+		{ tag: 'pindureta', image: 'highlight-01.png' },
+		{ tag: 'bolis quadradis', image: 'highlight-02.png' },
+		{ tag: 'sapiens', image: 'highlight-03.png' }
+	];
 
 	let divoltis = [
 		{
 			title: 'consetis',
 			subtitle: 'Manduma pindureta quium dia nois paga. Sapien in monti palavris',
-			image: ''
+			image: 'divoltis-porris-01.png'
 		},
 		{
 			title: 'aenan',
 			subtitle: 'Pellentesque laoreet mé vel lectus scelerique',
-			image: ''
+			image: 'divoltis-porris-02.png'
 		},
 		{
 			title: 'matis',
 			subtitle: 'Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.',
-			image: ''
+			image: 'divoltis-porris-03.png'
 		},
 		{
 			title: 'divinis',
 			subtitle: 'Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis',
-			image: ''
+			image: 'divoltis-porris-04.png'
 		}
 	];
 
@@ -58,12 +65,12 @@ export function get() {
 				{
 					title: 'nam liber',
 					description: 'casamentiss faiz malandris se pirulitá',
-					image: 'a'
+					image: 'se_pirulita-01.png'
 				},
 				{
 					title: 'gostis',
 					description: 'aenean ut ante turpis. pellentesque laoreet mé',
-					image: 'a'
+					image: 'se_pirulita-02.png'
 				}
 			]
 		},
@@ -73,12 +80,12 @@ export function get() {
 				{
 					title: 'interagi',
 					description: 'é um leite divinis qui tem lupuliz, matis, aguis e fermentis',
-					image: 'a'
+					image: 'suco_de_cevadiss-01.png'
 				},
 				{
 					title: 'gostis',
 					description: 'aenean ut ante turpis. pellentesque laoreet mé',
-					image: 'a'
+					image: 'suco_de_cevadiss-02.png'
 				}
 			]
 		}
