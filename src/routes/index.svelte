@@ -16,12 +16,13 @@
 
 
 
-<main class="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-screen-lg mx-auto px-4 my-8">
-    <div class="flex flex-col gap-2 sm:col-span-2">
+<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-screen-xl mx-auto px-4 my-8">
+    <div class="flex flex-col gap-2 col-span-full">
         <Carousel />
     </div>
     
-    <section class="flex flex-col gap-4 sm:flex-row sm:col-span-2">
+    <section class="flex flex-col gap-4 sm:flex-row col-span-full">
+        <p class="hidden md:block font-bold">top cacildis</p>
         {#each topCacildis as { tag, image }}
             <TopCacilds tag={tag} image={image}/>
         {/each}
@@ -51,7 +52,7 @@
         </div>
     {/each}
 
-    <section class="my-[4.5rem]">
+    <section class="my-[4.5rem] md:my-7 md:col-start-3 md:row-start-3">
         <Ad />
     </section>
 </main>
