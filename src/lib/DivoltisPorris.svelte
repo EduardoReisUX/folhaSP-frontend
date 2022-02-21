@@ -3,7 +3,7 @@
 </script>
 
 <div class={`flex flex-col gap-2 pb-4 border-b border-gray-200`}>
-    <img src={`static/mobile/${image}`} alt="" class="w-full bg-brand-black h-44">
+    <img src={`static/mobile/${image}`} alt="" class="w-full bg-brand-black h-44 object-cover">
     <p class="text-brand-blue uppercase">{title}</p>
     <p class="">{subtitle}</p>
 </div>

@@ -16,20 +16,20 @@
 
 
 
-<main class="flex flex-col gap-10 max-w-screen-lg mx-auto px-4 my-8">
-    <div class="flex flex-col gap-2">
+<main class="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-screen-lg mx-auto px-4 my-8">
+    <div class="flex flex-col gap-2 sm:col-span-2">
         <Carousel />
     </div>
     
-    <section class="flex flex-col gap-4">
+    <section class="flex flex-col gap-4 sm:flex-row sm:col-span-2">
         {#each topCacildis as { tag, image }}
             <TopCacilds tag={tag} image={image}/>
         {/each}
     </section>
 
-    <section class="flex flex-col gap-4">
+    <section class="flex flex-col gap-4 sm:col-span-2">
         <p class="font-bold text-lg">divoltis porris</p>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 sm:grid sm:grid-cols-2 sm:gap-8">
             {#each divoltis as { title, subtitle, image }}
                 <DivoltisPorris title={title} subtitle={subtitle} image={image} />
             {/each}
@@ -45,11 +45,11 @@
         </div>
     </section>
 
-    <section class="flex flex-col gap-4">
-            {#each sePirulita as {title, articles}}
-                <SePirulita title={title} articles={articles}/>
-            {/each}
-    </section>
+    {#each sePirulita as {title, articles}}
+        <div class="flex flex-col gap-4">
+            <SePirulita title={title} articles={articles}/>
+        </div>
+    {/each}
 
     <section class="my-[4.5rem]">
         <Ad />

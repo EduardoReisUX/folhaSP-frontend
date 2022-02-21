@@ -2,7 +2,7 @@
   import MdMenu from 'svelte-icons/md/MdMenu.svelte'
 </script>
 
-<nav class="w-full bg-brand-blueDarker bg-[url('/static/mobile/logo.png')] bg-no-repeat bg-center">
+<nav class="w-full sticky top-0 bg-brand-blueDarker bg-[url('/static/mobile/logo.png')] bg-no-repeat bg-center">
   <section class="grid grid-cols-4 items-center max-w-screen-lg p-4 m-auto">
 	<div class="w-8 h-8 text-brand-black"><MdMenu /></div>
 	<p class="hidden sm:block col-span-2">O site de teste para <strong>novos webs</strong></p>
