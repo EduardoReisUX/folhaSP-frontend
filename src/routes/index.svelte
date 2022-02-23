@@ -25,7 +25,7 @@
     </div>
     
     <section class="flex flex-col gap-4 col-span-full">
-        <p class="hidden md:block font-bold">top cacildis</p>
+        <p class="hidden md:block font-bold text-lg">top cacildis</p>
         <div class="flex flex-col sm:flex-row gap-4 md:gap-10">
         {#each topCacildis as { tag, image }}
             <TopCacilds tag={tag} image={image}/>
