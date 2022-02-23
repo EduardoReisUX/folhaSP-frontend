@@ -1,40 +1,72 @@
-# create-svelte
+# Desafio FolhaSP - frontend
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+    <a href="https://github.com/FolhaSP/teste-para-frontend">Acesse o desafio da Folha de São Paulo</a>
+</p>
 
-## Creating a project
+<p align="center">
+  <a href="#ℹ-descrição">Descrição</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-pré-requisitos">Pré-requisitos</a> •
+  <a href="#-como-usar">Como usar</a>
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<p align="center">
+  <img src="github/desktop.png" alt="Projeto no desktop" width="100%"></img>
+</p>
+
+<p align="center">
+  <img src="github/mobile.png" alt="Projeto mobile" width="320px"></img>
+</p>
+
+## ℹ Descrição
+
+Projeto desenvolvido como teste para recrumento de desenvolvedores frontend da FolhaSP.
+
+O teste consistia em criar o HTML/CSS responsivo, com base no layout do Invision, para avaliar o nível de conhecimento de design responsivo usando HTML5, CSS3 e grids.
+
+No entanto, serviu de prática para explorar sobre Svelte + SvelteKit (o equivalente a ReactJS + Next.js) e TailwindCSS.
+
+## ⚒ Tecnologias
+
+- [**Typescript**](https://www.typescriptlang.org)
+- [**Svelte**](https://svelte.dev/)
+- [**SvelteKit**](https://kit.svelte.dev/)
+- [**TailwindCSS**](https://tailwindcss.com/)
+- [**svelte-icons**](https://github.com/Introvertuous/svelte-icons)
+
+## ⚙ Pré-requisitos
+
+- [Git](https://git-scm.com)
+- [npm e Node.js](https://nodejs.org/en/download/)
+- Editor de código.
+
+## 🖥 Como usar
+
+**Clone o projeto e acesse a pasta**
 
 ```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+$ git clone https://github.com/EduardoReisUX/folhaSP-frontend && cd folhaSP-frontend
 ```
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+**Siga os passos seguintes**
 
 ```bash
-npm run dev
+# Instale as dependências
+$ npm install
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# Inicie o desenvolvimento
+$ npm run dev -- --open
+
+# Para criar uma build da aplicação
+$ npm run build
+
+# Veja o preview dessa build
+$ npm run preview
 ```
 
-## Building
+---
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<p align="center">
+    Made with 💜 by <a href="https://github.com/EduardoReisUX">Eduardo dos Reis</a>, powered by <a href="https://github.com/sveltejs/kit/tree/master/packages/create-svelte">create-svelte</a>
+</p>
