@@ -2,7 +2,7 @@
     import MdArrowUpward from 'svelte-icons/md/MdArrowUpward.svelte'
 </script>
 
-<footer class="text-brand-white">
+<footer class="max-w-screen-xl mx-auto text-brand-white">
     <div class="flex items-center justify-end text-sm bg-brand-blue">
             <button class="flex gap-2 items-center px-4 py-2 ">
                 VOLTAR AO TOPO

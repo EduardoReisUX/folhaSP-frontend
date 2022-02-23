@@ -19,8 +19,8 @@
 
 <svelte:window bind:innerWidth />
 
-<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-screen-xl mx-auto px-4 my-8">
-    <section class="flex flex-col gap-2 col-span-full">
+<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-screen-lg mx-auto px-4 my-8">
+    <section class="flex flex-col gap-4 col-span-full">
         <Carousel innerWidth={innerWidth}/>
     </section>
     
@@ -53,7 +53,7 @@
 
     {#each sePirulita as {title, articles}}
         <div class="flex flex-col gap-4">
-            <SePirulita title={title} articles={articles}/>
+            <SePirulita title={title} articles={articles} />
         </div>
     {/each}
 

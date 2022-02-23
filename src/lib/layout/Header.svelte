@@ -1,16 +1,18 @@
 <script>
+  import logo from "$lib/assets/mobile/logo.png"
+  
   import MdMenu from 'svelte-icons/md/MdMenu.svelte'
   import FaFacebookF from 'svelte-icons/fa/FaFacebookF.svelte'
   import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte'
 </script>
 
-<nav class="w-full sticky top-0 bg-brand-blue z-10">
-  <section class="grid grid-cols-3 sm:grid-cols-[0.5fr_1fr_1fr_1fr_1fr] gap-2 items-center max-w-screen-lg p-4 pb-0 m-auto">
+<nav class="max-w-screen-xl mx-auto sticky md:static top-0 bg-brand-blue z-10">
+  <section class="grid grid-cols-3 sm:grid-cols-[0.5fr_1fr_1fr_1fr_1fr] gap-2 items-center max-w-screen-lg px-4 pb-0 m-auto">
     <button class="w-8 h-8 text-brand-black">
       <MdMenu />
     </button>
 
-    <img src="/static/mobile/logo.png" alt="" >
+    <img src={logo} alt="" >
 
     <p class="hidden sm:block col-span-2 text-brand-white">O site de teste para <strong>novos webs</strong></p>
     
