@@ -6,9 +6,9 @@
 
 <nav class="w-full sticky top-0 bg-brand-blue z-10">
   <section class="grid grid-cols-3 sm:grid-cols-[0.5fr_1fr_1fr_1fr_1fr] gap-2 items-center max-w-screen-lg p-4 pb-0 m-auto">
-    <div class="w-8 h-8 text-brand-black">
+    <button class="w-8 h-8 text-brand-black">
       <MdMenu />
-    </div>
+    </button>
 
     <img src="/static/mobile/logo.png" alt="" >
 

@@ -20,9 +20,9 @@
 <svelte:window bind:innerWidth />
 
 <main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-screen-xl mx-auto px-4 my-8">
-    <div class="flex flex-col gap-2 col-span-full">
+    <section class="flex flex-col gap-2 col-span-full">
         <Carousel innerWidth={innerWidth}/>
-    </div>
+    </section>
     
     <section class="flex flex-col gap-4 col-span-full">
         <p class="hidden md:block font-bold text-lg">top cacildis</p>
@@ -62,12 +62,10 @@
     </section>
 </main>
 
-
-
 <style global>
     body {
         min-height: 100vh;
         background-color: rgb(243, 244, 246);
-        font-family: Arial, Helvetica, sans-serif
+        font-family: Arial, Helvetica, sans-serif;
     }
 </style>
