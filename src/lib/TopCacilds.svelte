@@ -16,7 +16,7 @@
 <article class="sm:flex-1">
     <div class={`relative flex flex-col justify-end pb-4 bg-brand-black w-full h-48 py-4`}>
         <img src={Images[image]} alt={tag} class="absolute inset-0 h-full w-full object-cover">
-        <div class="z-10 w-max py-1 pr-5 pl-1 uppercase bg-brand-red text-brand-white">
+        <div class="relative w-max py-1 pr-5 pl-1 uppercase bg-brand-red text-brand-white">
             {tag}
         </div>
     </div>

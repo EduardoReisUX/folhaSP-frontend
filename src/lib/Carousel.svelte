@@ -7,10 +7,10 @@
 {#if innerWidth > 768}
     <div class="relative flex flex-col gap-4 justify-end px-4 pb-4 w-full h-80">
         <img src={carousel} alt={"Carrossel"} class="absolute inset-0 h-full w-full object-cover brightness-75">
-        <div class="z-10 w-max py-1 pr-5 pl-1 md:px-5 font-bold uppercase bg-brand-blue text-brand-white">
+        <div class="relative w-max py-1 pr-5 pl-1 md:px-5 font-bold uppercase bg-brand-blue text-brand-white">
             MUSSUM IPSUM CACILDS
         </div>
-        <div class="z-10">
+        <div class="relative">
             <p class="font-bold text-xl text-brand-white">Pra lá, depois divoltis porris, paradis.</p>
             <p class="font-bold text-xl text-brand-white">Paisis, filhis, espiritis santis</p>
         </div>
@@ -18,7 +18,7 @@
 {:else}
     <div class="relative flex flex-col gap-4 justify-end pb-4 w-full h-80">
         <img src={carousel} alt={"Carrossel"} class="absolute inset-0 h-full w-full object-cover brightness-75">
-        <div class="z-10 w-max py-1 pr-5 pl-1 md:px-5 font-bold uppercase bg-brand-blue text-brand-white">
+        <div class="relative w-max py-1 pr-5 pl-1 md:px-5 font-bold uppercase bg-brand-blue text-brand-white">
             MUSSUM IPSUM CACILDS
         </div>
     </div>
