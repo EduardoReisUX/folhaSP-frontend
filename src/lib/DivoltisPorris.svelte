@@ -16,8 +16,8 @@
 	};
 </script>
 
-<div class={`flex flex-col gap-2 pb-4 border-b border-gray-200`}>
+<a href="/" class="flex flex-col gap-2 pb-4 border-b border-gray-200 hover:border-brand-red">
 	<img src={imagesDesktop[image]} alt={image} class="w-full bg-brand-black h-44 object-cover" />
 	<p class="text-brand-blue uppercase">{title}</p>
-	<p class="">{subtitle}</p>
-</div>
+	<p>{subtitle}</p>
+</a>

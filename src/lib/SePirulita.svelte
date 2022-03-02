@@ -21,13 +21,15 @@
 
 <p class="text-brand-red text-lg">{title}</p>
 
-<div class={`grid grid-cols-2 gap-4`}>
+<div class={`grid grid-cols-2  gap-4`}>
 	{#each articles as { title, description, image }}
-		<img src={imagesDesktop[image]} alt={title} class="aspect-square bg-brand-black" />
+		<a href="/" class="border-b-4 border-transparent hover:border-brand-red">
+			<img src={imagesDesktop[image]} alt={title} class="aspect-square bg-brand-black" />
+		</a>
 
-		<div class="flex flex-col gap-2">
+		<a href="/" class="flex flex-col gap-2">
 			<small class="uppercase text-brand-red">{title}</small>
 			<small class="capitalize">{description}</small>
-		</div>
+		</a>
 	{/each}
 </div>

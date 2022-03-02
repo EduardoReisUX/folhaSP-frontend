@@ -5,7 +5,7 @@
 </script>
 
 {#if innerWidth > 768}
-	<div class="relative flex flex-col gap-4 justify-end px-4 pb-4 w-full h-80">
+	<a href="/" class="relative flex flex-col gap-4 justify-end px-4 pb-4 w-full h-80">
 		<img
 			src={carousel}
 			alt={'Carrossel'}
@@ -20,9 +20,9 @@
 			<p class="font-bold text-xl text-brand-white">Pra lá, depois divoltis porris, paradis.</p>
 			<p class="font-bold text-xl text-brand-white">Paisis, filhis, espiritis santis</p>
 		</div>
-	</div>
+	</a>
 {:else}
-	<div class="relative flex flex-col gap-4 justify-end pb-4 w-full h-80">
+	<a href="/" class="relative flex flex-col gap-4 justify-end pb-4 w-full h-80">
 		<img
 			src={carousel}
 			alt={'Carrossel'}
@@ -33,7 +33,7 @@
 		>
 			MUSSUM IPSUM CACILDS
 		</div>
-	</div>
+	</a>
 
 	<p class="font-bold text-xl">Pra lá, depois divoltis porris, paradis.</p>
 {/if}

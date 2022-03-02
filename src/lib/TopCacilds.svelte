@@ -14,10 +14,13 @@
 </script>
 
 <article class="sm:flex-1">
-	<div class={`relative flex flex-col justify-end pb-4 bg-brand-black w-full h-48 py-4`}>
+	<a
+		href="/"
+		class={`relative flex flex-col justify-end w-full h-48 py-4 border-b-4 border-transparent hover:border-brand-red`}
+	>
 		<img src={Images[image]} alt={tag} class="absolute inset-0 h-full w-full object-cover" />
 		<div class="relative w-max py-1 pr-5 pl-1 uppercase bg-brand-red text-brand-white">
 			{tag}
 		</div>
-	</div>
+	</a>
 </article>

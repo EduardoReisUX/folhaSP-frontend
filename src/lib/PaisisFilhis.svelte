@@ -2,8 +2,8 @@
 	export let title: string;
 </script>
 
-<div class="pb-4 border-b border-gray-200">
+<a href="/" class="pb-4 border-b border-gray-200">
 	<small class="text-xs">
 		{title}
 	</small>
-</div>
+</a>
